@@ -1,6 +1,6 @@
 import pytest
 import pandas as pd
-from src.data.ingest_data import preprocess_data
+from src.data.ingest_data import preprocess_data, load_data, preprocess_data
 from src.models.train import train_model
 
 def test_preprocessing():

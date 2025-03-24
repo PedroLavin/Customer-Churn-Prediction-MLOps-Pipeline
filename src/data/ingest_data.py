@@ -17,6 +17,7 @@ def preprocess_data(df):
     # Convert categorical variables
     categorical_columns = ['Gender', 'Subscription Type', 'Contract Length']
     df = pd.get_dummies(df, columns=categorical_columns)
+    print(df.columns.tolist())
     
     return df
 
