@@ -1,0 +1,6 @@
+artifact_location: file:///C:/Users/T%20pro/Desktop/Churn%20Prediction/Customer-Churn-Prediction-MLOps-Pipeline/mlruns/864646557971748503
+creation_time: 1742753037693
+experiment_id: '864646557971748503'
+last_update_time: 1742753037693
+lifecycle_stage: active
+name: churn_prediction

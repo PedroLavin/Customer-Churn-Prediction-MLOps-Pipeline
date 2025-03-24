@@ -11,18 +11,18 @@ def preprocess_data(df):
     df = df.dropna()
     
     # Feature engineering
-    df['tenure_months'] = pd.to_numeric(df['tenure_months'])
-    df['total_charges'] = pd.to_numeric(df['total_charges'], errors='coerce')
+    df['Tenure'] = pd.to_numeric(df['Tenure'])
+    # df['total_charges'] = pd.to_numeric(df['total_charges'], errors='coerce')
     
     # Convert categorical variables
-    categorical_columns = ['gender', 'internet_service', 'contract_type']
+    categorical_columns = ['Gender', 'Subscription Type', 'Contract Length']
     df = pd.get_dummies(df, columns=categorical_columns)
     
     return df
 
 def split_and_save_data(df):
-    X = df.drop('churn', axis=1)
-    y = df['churn']
+    X = df.drop('Churn', axis=1)
+    y = df['Churn']
     
     X_train, X_test, y_train, y_test = train_test_split(
         X, y, test_size=0.2, random_state=42

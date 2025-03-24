@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/T%20pro/Desktop/Churn%20Prediction/Customer-Churn-Prediction-MLOps-Pipeline/mlruns/864646557971748503/e6a563a5b32f4c3abcaf0ca7412afa1c/artifacts
+end_time: 1742753598331
+entry_point_name: ''
+experiment_id: '864646557971748503'
+lifecycle_stage: active
+run_id: e6a563a5b32f4c3abcaf0ca7412afa1c
+run_name: polite-trout-343
+run_uuid: e6a563a5b32f4c3abcaf0ca7412afa1c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742753547723
+status: 4
+tags: []
+user_id: T pro
